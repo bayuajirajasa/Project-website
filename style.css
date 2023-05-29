@@ -1,0 +1,26 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.login-left,
+.login-right {}
+
+.logo {
+    margin: 20px, 20px;
+}
+
+.gym {}
+
+.text-login {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+}
