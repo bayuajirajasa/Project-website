@@ -1,13 +1,17 @@
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .login {
     display: flex;
     justify-content: center;
+    height: 80%;
 }
 
-.login-left,
+.login-left {
+    height: 50%;
+}
+
 .login-right {}
 
 .logo {
@@ -17,10 +21,21 @@
 .gym {}
 
 .text-login {
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 40px;
-    line-height: 60px;
+    line-height: 49px;
     color: #000000;
+}
+
+.button-signin {
+    margin-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    background-color: #C1E701;
+    border: 2px solid #C1E701;
+    width: 200px;
 }
